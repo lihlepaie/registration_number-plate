@@ -9,18 +9,22 @@
 </head>
 
 <body>
-
-    <h1>Registration Number List</h1>
-    <div id="Box">
-        <h2>Registration Number:<input id="regNum" placeholder="Enter regNum"></input>
+    <div id="container">
+        <h1>Show registration numbers for selected town</h1>
+        <div id="Box">
+            <h2>Registration Number:<input id="regNum" placeholder="Enter regNum"></input>
   <button type="button" id='add' name="button">ADD</button>
-  <div>
+
     <ul class="regNumbers"></ul>
-
+    <select id="province">
+      <option value="Town">select Towns</option>
+        <option value="ALL">All Towns</option>
+        <option value="CA">Cape Town</option>
+        <option value="GA">Gauteng</option>
+        <option value="Jh">Jorburg</option>
+        <option value="CK">Bellville</option>
 </select>
-  </div>
-  </div>
   <script src="registration_number.js" charset="utf-8"></script>
-
+  </div>
   </body>
 </html>

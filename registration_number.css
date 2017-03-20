@@ -4,7 +4,6 @@ h1 {
     background-color: #555;
     font-style: italic;
 }
-
 #container {
     text-align: center;
     font-size: 30px;
@@ -17,7 +16,6 @@ input {
     height: 30px;
     width: 200px;
 }
-
 button {
     float: righ;
     font-size: 25px;

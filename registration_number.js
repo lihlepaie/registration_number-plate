@@ -16,8 +16,10 @@ province.addEventListener('change', function(e) {
 
     for (var i = 0; i < allRegnum.length; i++) {
         if (e.target.value === 'ALL') {
+          
             allRegnum[i].style.display = 'block'
         } else if (allRegnum[i].innerHTML.startsWith(e.target.value)) {
+
             allRegnum[i].style.display = 'block';
         } else {
             allRegnum[i].style.display = 'none';

@@ -26,4 +26,4 @@ province.addEventListener('change', function(e) {
             allRegnum[i].style.display = 'none';
         }
     }
-})
+});
